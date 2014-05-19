@@ -1,0 +1,7 @@
+<PAGE AUTHOR="David Schweikert <dws@ee.ethz.ch>" PAGE="doc_frontend">
+
+#use wml::fmt::pod
+
+<H1>Frontend Manual</H1>
+
+<mypod gedafe-user.pod>

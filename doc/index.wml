@@ -1,0 +1,24 @@
+<PAGE AUTHOR="David Schweikert <dws@ee.ethz.ch>" PAGE="doc">
+
+<H1>Documentation</H1>
+
+<H2>Manuals</H2>
+
+<DL>
+<DT><A href="gedafe-user.en.html">Frontend Guide</A></DT>
+<DD>General Overview, Installation, Templates</DD>
+<DT><A href="gedafe-sql.en.html">Database Guide</A></DT>
+<DD>How to create Gedafe compatible databases with PostgreSQL</DD>
+<DT><A href="gedafe-pearls.en.html">Gedafe Pearls-Reports</A></DT>
+<DD>How to create Multi-level reports with Gedafe Pearls</DD>
+<DT><A href="peralreports.en.html">The PearlsReports Modle</A></DT>
+<DD>A perl module making the creation of complex reports simple</DD>
+<DT><A href="CPPTemplate.en.html">CPPTemplate</A></DT>
+<DD>Documentation about the CPP system used in Gedafe Templates</DD>
+</DL>
+
+<H2>Other Material</H2>
+
+<UL>
+<LI><A href="gedafeslides.pdf">Presentation Slides</A></LI>
+</UL>

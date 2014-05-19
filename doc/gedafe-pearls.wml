@@ -1,0 +1,7 @@
+<PAGE AUTHOR="Tobias Oetiker <tobi@oetiker.ch>" PAGE="doc_pearls">
+
+#use wml::fmt::pod
+
+<H1>Gedafe Pearl Reports</H1>
+
+<mypod gedafe-pearls.pod>

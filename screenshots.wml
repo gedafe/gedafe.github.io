@@ -1,0 +1,22 @@
+<PAGE AUTHOR="David Schweikert <dws@ee.ethz.ch>" PAGE="screenshots">
+
+<H1>Screenshots</H1>
+
+<H2>ISG People Time and Projects</H2>
+
+<P>This is the first database application that we did implement with Gedafe. In
+fact, it was for this particular application that we developed Gedafe...
+
+<P>It is an application to help with project management inside a group. It
+tracks projects, people, time spent on the projects, customers, schedules,
+absences and bills to customers.
+
+<UL>
+<LI><A href="screenshots/isgptp1.png">Shot 1</A>: Table showing the time spent by
+a worker on the various projects in a day. </LI>
+
+<LI><A href="screenshots/isgptp2.png">Shot 2</A>: Edit a ``work-log''
+entry.</LI>
+
+<LI><A href="screenshots/isgptp3.png">Shot 3</A>: Show a graphical table of
+the absences.</LI>

@@ -1,0 +1,28 @@
+<PAGE AUTHOR="David Schweikert <dws@ee.ethz.ch>" PAGE="people">
+
+<H1>People Behind Gedafe</H1>
+
+<H2>Developers</H2>
+
+<UL>
+<LI><A href="http://david.schweikert.ch/">David Schweikert</A></LI>
+<LI><A href="http://tobi.oetiker.ch/">Tobias Oetiker</A></LI>
+<LI>Adi Fairbank</LI>
+<LI>Freek Zindel</LI>
+<LI>Johannes Pöhlmann</LI>
+</UL>
+
+<H2>Thanks</H2>
+
+<P>Gedafe has been developed at the expense of the
+<A href="http://www.isg.ee.ethz.ch/">IT Support Group</A>
+of the Departement of Information Technology and Electrical Engineering at ETH Zurich to
+provide the basis for an internal time tracking system.</P>
+
+<P>Gedafe builds on the work of many other people. Above all we would like to thank:</P>
+<UL>
+<LI><B>Larry Wall</B> for the Perl Programming Language</LI>
+<LI><B>The PostgreSQL Group</B> for providing a cool Database</LI>
+<LI><B>Sam Horrocks</B> for SpeedyCGI</LI>
+<LI><B>The Apache Group</B> for providing the web platform</LI>
+</UL>

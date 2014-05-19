@@ -1,0 +1,7 @@
+<PAGE AUTHOR="Tobias Oetiker <tobi@oetiker.ch>" PAGE="doc_pearlreports">
+
+#use wml::fmt::pod
+
+<H1>Pearl Reports</H1>
+
+<mypod PearlReports.pod>

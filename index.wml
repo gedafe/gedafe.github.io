@@ -1,0 +1,73 @@
+<PAGE AUTHOR="David Schweikert <dws@ee.ethz.ch>" PAGE="about">
+
+<H1>About Gedafe</H1>
+
+<H2*>Gedafe 1.4.0 is released!
+<A href="http://isg.ee.ethz.ch/tools/gedafe/pub/NEWS">Read more...</a></H2*>
+
+<H2>What is Gedafe?</H2>
+
+<p>Gedafe is a Generic, Web-based, PostgreSQL Database Front-end written in
+Perl. It pulls all information it needs right from the underlying database.
+No database specific configuration is required in the front-end itself.
+Gedafe is nevertheless End-User-Friendly. This means that it provides a full
+featured Database Application Web-interface ready to be used by normal
+people.</p>
+
+<P>The main idea behind Gedafe is to put all the application logic into the
+database along with meta-information on how to present the data. This allows
+to use a generic front-end which gathers that information and then builds
+the user interface accordingly.</P>
+
+<H2>Application in the Database</H2>
+
+<P>Modern databases such as PostgreSQL allow to setup rules defining what
+sort of data is permitted in each field of a table. It is even possible to
+store little programs (stored procedures) which get executed whenever a
+value in a table is inserted/changed/deleted. The program can then take
+additional action, run elaborate tests, and in the end even refuse the
+modification.</P>
+
+<P>Implementing the application in the database is good practice, as it is
+highly effective in ensuring data integrity. Whatever means are used to
+access the database, data-integrity rules will be enforced. Also, writing
+database applications at the database level is easier, since the built-in
+programming facilities of the database are tailored to this very
+purpose.</p>
+
+<p>Such Databases Applications can be implemented in a wide variety of ways.
+For Gedafe to be able to to generate a web-interface for your database it
+relies on a number of conventions. Check the <A
+href="doc/gedafe-sql.en.html">Database Guide</a> for details.</p>
+
+<H2>Other Gedafe Features</H2>
+
+<UL> 
+
+<LI> User <EM>authentication</EM> is done only at the database-level, it is
+     transparent to the requested URL (after a login you get the page you
+     requested initially).  Authentication is based on cookies that expire
+     server-side. </LI>
+
+<LI> Templates allow to customize the Gedafe generated Web interface</LI>
+
+<LI> POST is used only for data that modifies the database. Every view is
+     encoded in the URL. This means that you can set <em>bookmarks</em> to
+     screens inside Gedafe.</li>
+
+<LI> <EM>Double Submit Protection</EM>. It is not possible to submit the
+     same form twice. This ensures that data is only entered once even when
+     Gedafe is used under non standard conditions. </LI>
+
+<LI> Gedafe can read additional setup information from special META tables
+     stored alongside the production data in the database. This allows to
+     enable additional Gedafe features or to override settings which Gedafe
+     derived from looking at the table structure and naming scheme.</LI>
+
+<LI> Built-in support for external reporting modules allow to easily generate
+     complex reports using external Perl modules.</LI>
+
+<LI> Every table Gedafe displays can be downloaded with a single click in
+     comma separated format ready for import into a spreadsheet.</LI>
+
+</UL>

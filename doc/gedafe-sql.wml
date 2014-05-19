@@ -1,0 +1,7 @@
+<PAGE AUTHOR="Tobias Oetiker <tobi@oetiker.ch>" PAGE="doc_database">
+
+#use wml::fmt::pod
+
+<H1>Database Manual</H1>
+
+<mypod gedafe-sql.pod>

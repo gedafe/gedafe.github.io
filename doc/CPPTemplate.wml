@@ -1,0 +1,7 @@
+<PAGE AUTHOR="David Schweikert <dws@ee.ethz.ch>" PAGE="doc_cpptemplate">
+
+#use wml::fmt::pod
+
+<H1>CPPTemplate</H1>
+
+<mypod CPPTemplate.pm>
