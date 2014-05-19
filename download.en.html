@@ -2,7 +2,7 @@
 <HTML lang="en">
 <HEAD>
 <META name="generator" content="HTML Tidy, see www.w3.org">
-<TITLE>About Gedafe</TITLE>
+<TITLE>Download</TITLE>
 <SCRIPT type="text/javascript" language="JavaScript">
 <!-- Hiding the code
 function nb_imgNormal(imgName) {
@@ -67,6 +67,10 @@ SMALL {font-size: 10pt}
 <SCRIPT type="text/javascript" language="JavaScript">
 <!-- Hiding the code
 if (document.images) {
+    nb_img1_about_n = new Image();
+    nb_img1_about_n.src = '.img/about-std.en.gif';
+    nb_img1_about_o = new Image();
+    nb_img1_about_o.src = '.img/about-ovr.en.gif';
     nb_img1_doc_n = new Image();
     nb_img1_doc_n.src = '.img/doc-std.en.gif';
     nb_img1_doc_o = new Image();
@@ -75,10 +79,6 @@ if (document.images) {
     nb_img1_screenshots_n.src = '.img/screenshots-std.en.gif';
     nb_img1_screenshots_o = new Image();
     nb_img1_screenshots_o.src = '.img/screenshots-ovr.en.gif';
-    nb_img1_download_n = new Image();
-    nb_img1_download_n.src = '.img/download-std.en.gif';
-    nb_img1_download_o = new Image();
-    nb_img1_download_o.src = '.img/download-ovr.en.gif';
     nb_img1_people_n = new Image();
     nb_img1_people_n.src = '.img/people-std.en.gif';
     nb_img1_people_o = new Image();
@@ -93,13 +93,13 @@ if (document.images) {
 
  
 
-<DIV><IMG src=".img/about-sel.en.gif" alt="About" width="120" height="25"></DIV>
+<DIV><A href="index.en.html" onmouseover="nb_imgOver('nb_img1_about', 0, ''); return true" onmouseout="nb_imgNormal('nb_img1_about'); return true" onfocus="nb_imgOver('nb_img1_about', 0, ''); return true" onblur="nb_imgNormal('nb_img1_about'); return true"><IMG name="nb_img1_about" src=".img/about-std.en.gif" alt="About" border="0" width="120" height="25"></A></DIV>
 
 <DIV><A href="doc/index.en.html" onmouseover="nb_imgOver('nb_img1_doc', 0, ''); return true" onmouseout="nb_imgNormal('nb_img1_doc'); return true" onfocus="nb_imgOver('nb_img1_doc', 0, ''); return true" onblur="nb_imgNormal('nb_img1_doc'); return true"><IMG name="nb_img1_doc" src=".img/doc-std.en.gif" alt="Documentation" border="0" width="120" height="25"></A></DIV>
 
 <DIV><A href="screenshots.en.html" onmouseover="nb_imgOver('nb_img1_screenshots', 0, ''); return true" onmouseout="nb_imgNormal('nb_img1_screenshots'); return true" onfocus="nb_imgOver('nb_img1_screenshots', 0, ''); return true" onblur="nb_imgNormal('nb_img1_screenshots'); return true"><IMG name="nb_img1_screenshots" src=".img/screenshots-std.en.gif" alt="Screenshots" border="0" width="120" height="25"></A></DIV>
 
-<DIV><A href="download.en.html" onmouseover="nb_imgOver('nb_img1_download', 0, ''); return true" onmouseout="nb_imgNormal('nb_img1_download'); return true" onfocus="nb_imgOver('nb_img1_download', 0, ''); return true" onblur="nb_imgNormal('nb_img1_download'); return true"><IMG name="nb_img1_download" src=".img/download-std.en.gif" alt="Download" border="0" width="120" height="25"></A></DIV>
+<DIV><IMG src=".img/download-sel.en.gif" alt="Download" width="120" height="25"></DIV>
 
 <DIV><A href="people.en.html" onmouseover="nb_imgOver('nb_img1_people', 0, ''); return true" onmouseout="nb_imgNormal('nb_img1_people'); return true" onfocus="nb_imgOver('nb_img1_people', 0, ''); return true" onblur="nb_imgNormal('nb_img1_people'); return true"><IMG name="nb_img1_people" src=".img/people-std.en.gif" alt="People" border="0" width="120" height="25"></A></DIV>
 
@@ -112,75 +112,19 @@ if (document.images) {
 
 <DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="10" align="bottom" border="0"><BR>
  <SMALL>Last Update:<BR>
-<IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="10" height="1" align="bottom" border="0">2007-03-20</SMALL></DIV>
+<IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="10" height="1" align="bottom" border="0">2003-09-27</SMALL></DIV>
 </TD>
 <TD rowspan="2" width="30"><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="30" height="1" align="bottom" border="0"></TD>
 <TD valign="top">
-<DIV><IMG src="./.img/About_Gedafe_H1.en.gif" alt="About Gedafe" width="500" height="50"></DIV>
-
-<H2>Gedafe 1.4.0 is released! <A href="http://isg.ee.ethz.ch/tools/gedafe/pub/NEWS">Read more...</A></H2>
+<DIV><IMG src="./.img/Download_H1.en.gif" alt="Download" width="500" height="50"></DIV>
 
 <DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="6" align="bottom" border="0"></DIV>
 
-<DIV><IMG align="BOTTOM" src="./.img/What_is_Gedafe__H2.en.gif" alt="What is Gedafe?" width="500" height="27"></DIV>
-
-<P>Gedafe is a Generic, Web-based, PostgreSQL Database Front-end written in Perl. It pulls all information it needs right from the underlying database. No database specific configuration is required in the front-end itself. Gedafe is nevertheless End-User-Friendly. This means that it provides a full featured Database Application Web-interface ready to be used by normal people.</P>
-
-<P>The main idea behind Gedafe is to put all the application logic into the database along with meta-information on how to present the data. This allows to use a generic front-end which gathers that information and then builds the user interface accordingly.</P>
-
-<DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="6" align="bottom" border="0"></DIV>
-
-<DIV><IMG align="BOTTOM" src="./.img/Application_in_the_Database_H2.en.gif" alt="Application in the Database" width="500" height="27"></DIV>
-
-<P>Modern databases such as PostgreSQL allow to setup rules defining what sort of data is permitted in each field of a table. It is even possible to store little programs (stored procedures) which get executed whenever a value in a table is inserted/changed/deleted. The program can then take additional action, run elaborate tests, and in the end even refuse the modification.</P>
-
-<P>Implementing the application in the database is good practice, as it is highly effective in ensuring data integrity. Whatever means are used to access the database, data-integrity rules will be enforced. Also, writing database applications at the database level is easier, since the built-in programming facilities of the database are tailored to this very purpose.</P>
-
-<P>Such Databases Applications can be implemented in a wide variety of ways. For Gedafe to be able to to generate a web-interface for your database it relies on a number of conventions. Check the <A href="doc/gedafe-sql.en.html">Database Guide</A> for details.</P>
-
-<DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="6" align="bottom" border="0"></DIV>
-
-<DIV><IMG align="BOTTOM" src="./.img/Other_Gedafe_Features_H2.en.gif" alt="Other Gedafe Features" width="500" height="27"></DIV>
+<DIV><IMG align="BOTTOM" src="./.img/Via_HTTP_H2.en.gif" alt="Via HTTP" width="500" height="27"></DIV>
 
 <UL>
 <LI>
-<DIV>User <EM>authentication</EM> is done only at the database-level, it is transparent to the requested URL (after a login you get the page you requested initially). Authentication is based on cookies that expire server-side.</DIV>
-
-<DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="4" align="bottom" border="0"></DIV>
-</LI>
-
-<LI>
-<DIV>Templates allow to customize the Gedafe generated Web interface</DIV>
-
-<DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="4" align="bottom" border="0"></DIV>
-</LI>
-
-<LI>
-<DIV>POST is used only for data that modifies the database. Every view is encoded in the URL. This means that you can set <EM>bookmarks</EM> to screens inside Gedafe.</DIV>
-
-<DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="4" align="bottom" border="0"></DIV>
-</LI>
-
-<LI>
-<DIV><EM>Double Submit Protection</EM>. It is not possible to submit the same form twice. This ensures that data is only entered once even when Gedafe is used under non standard conditions.</DIV>
-
-<DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="4" align="bottom" border="0"></DIV>
-</LI>
-
-<LI>
-<DIV>Gedafe can read additional setup information from special META tables stored alongside the production data in the database. This allows to enable additional Gedafe features or to override settings which Gedafe derived from looking at the table structure and naming scheme.</DIV>
-
-<DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="4" align="bottom" border="0"></DIV>
-</LI>
-
-<LI>
-<DIV>Built-in support for external reporting modules allow to easily generate complex reports using external Perl modules.</DIV>
-
-<DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="4" align="bottom" border="0"></DIV>
-</LI>
-
-<LI>
-<DIV>Every table Gedafe displays can be downloaded with a single click in comma separated format ready for import into a spreadsheet.</DIV>
+<DIV><A href="http://isg.ee.ethz.ch/tools/gedafe/pub/?M=D">http://isg.ee.ethz.ch/tools/gedafe/pub</A></DIV>
 
 <DIV><IMG src=".img/imgdot-1x1-transp-ffffff.gif" alt="" width="1" height="4" align="bottom" border="0"></DIV>
 </LI>
@@ -195,7 +139,7 @@ if (document.images) {
 </TR>
 </TABLE>
 </TD>
-<TD valign="TOP" align="RIGHT"><IMG src="./.img/about_gedafe_Decor.en.gif" alt="" width="100" height="600"></TD>
+<TD valign="TOP" align="RIGHT"><IMG src="./.img/download_Decor.en.gif" alt="" width="100" height="600"></TD>
 </TR>
 </TABLE>
 </BODY>
